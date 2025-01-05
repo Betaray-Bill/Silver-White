@@ -16,6 +16,7 @@ const Landing = () => {
             </section>
 
             <Services/>
+
         </Fragment>
     );
 };

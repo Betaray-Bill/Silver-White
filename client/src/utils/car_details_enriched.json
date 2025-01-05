@@ -1,0 +1,1252 @@
+[
+    {
+        "manufacture_date": "2002-08-23",
+        "owner_name": "Emily Davis",
+        "brand": "Chevrolet",
+        "model_name": "Civic",
+        "mileage": "8032 km",
+        "price": "$38,404",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Minor engine oil leakage.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Chevrolet Civic features a Hybrid engine, 5-seater capacity, and is equipped with ABS, adaptive cruise control, lane assist, sunroof. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2010-03-21",
+        "owner_name": "Emily Davis",
+        "brand": "BMW",
+        "model_name": "Mustang",
+        "mileage": "148829 km",
+        "price": "$17,638",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Minor engine oil leakage.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This BMW Mustang features a 1.6L I4 engine, 4-seater capacity, and is equipped with lane assist, airbags. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2005-07-31",
+        "owner_name": "Robert Brown",
+        "brand": "Chevrolet",
+        "model_name": "Mustang",
+        "mileage": "141932 km",
+        "price": "$58,350",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Minor engine oil leakage.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Chevrolet Mustang features a Hybrid engine, 4-seater capacity, and is equipped with traction control, adaptive cruise control, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2017-08-17",
+        "owner_name": "John Doe",
+        "brand": "Toyota",
+        "model_name": "Corolla",
+        "mileage": "48434 km",
+        "price": "$13,591",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads, Worn-out wiper blades, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Toyota Corolla features a 1.6L I4 engine, 7-seater capacity, and is equipped with ABS, traction control, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2001-08-24",
+        "owner_name": "Michael Wilson",
+        "brand": "Ford",
+        "model_name": "Model S",
+        "mileage": "110250 km",
+        "price": "$27,763",
+        "other_information": "Minor paint fade on roof. Additional issues: Slight wear on brake pads, Minor engine oil leakage, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Ford Model S features a 3.0L V6 engine, 5-seater capacity, and is equipped with traction control, airbags. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2009-04-02",
+        "owner_name": "Emily Davis",
+        "brand": "Mercedes",
+        "model_name": "Elantra",
+        "mileage": "6631 km",
+        "price": "$62,556",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Slight wear on brake pads, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Mercedes Elantra features a Hybrid engine, 7-seater capacity, and is equipped with sunroof, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2017-03-31",
+        "owner_name": "John Doe",
+        "brand": "Nissan",
+        "model_name": "Silverado",
+        "mileage": "90652 km",
+        "price": "$33,412",
+        "other_information": "No visible damage. Additional issues: Suspension noise on rough roads, Minor engine oil leakage, Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Nissan Silverado features a 3.0L V6 engine, 4-seater capacity, and is equipped with sunroof, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2013-11-07",
+        "owner_name": "Jane Smith",
+        "brand": "BMW",
+        "model_name": "Civic",
+        "mileage": "55607 km",
+        "price": "$27,629",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Worn-out wiper blades, Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This BMW Civic features a 1.6L I4 engine, 5-seater capacity, and is equipped with lane assist, traction control, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2003-12-10",
+        "owner_name": "Emily Davis",
+        "brand": "Chevrolet",
+        "model_name": "Altima",
+        "mileage": "73070 km",
+        "price": "$45,657",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Chevrolet Altima features a 3.0L V6 engine, 4-seater capacity, and is equipped with adaptive cruise control, sunroof, airbags, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2013-11-04",
+        "owner_name": "John Doe",
+        "brand": "Honda",
+        "model_name": "Silverado",
+        "mileage": "159836 km",
+        "price": "$19,456",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Honda Silverado features a Hybrid engine, 4-seater capacity, and is equipped with sunroof, traction control, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2005-04-01",
+        "owner_name": "Michael Wilson",
+        "brand": "Hyundai",
+        "model_name": "E-Class",
+        "mileage": "19674 km",
+        "price": "$16,759",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads, Worn-out wiper blades, Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Hyundai E-Class features a 2.0L I4 engine, 7-seater capacity, and is equipped with lane assist, traction control, adaptive cruise control, ABS, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2004-12-01",
+        "owner_name": "John Doe",
+        "brand": "Ford",
+        "model_name": "Altima",
+        "mileage": "101078 km",
+        "price": "$73,810",
+        "other_information": "Minor paint fade on roof. Additional issues: Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford Altima features a 2.0L I4 engine, 7-seater capacity, and is equipped with adaptive cruise control, sunroof. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2007-12-03",
+        "owner_name": "Michael Wilson",
+        "brand": "Honda",
+        "model_name": "Sorento",
+        "mileage": "188676 km",
+        "price": "$7,356",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Slight wear on brake pads, Battery nearing end of life, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Honda Sorento features a Electric engine, 4-seater capacity, and is equipped with traction control, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2016-10-25",
+        "owner_name": "Jane Smith",
+        "brand": "Honda",
+        "model_name": "Sorento",
+        "mileage": "122213 km",
+        "price": "$31,575",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Worn-out wiper blades, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Honda Sorento features a Hybrid engine, 5-seater capacity, and is equipped with sunroof, traction control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2016-12-26",
+        "owner_name": "John Doe",
+        "brand": "Honda",
+        "model_name": "Civic",
+        "mileage": "91440 km",
+        "price": "$36,783",
+        "other_information": "No visible damage. Additional issues: Worn-out wiper blades, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Honda Civic features a 2.0L I4 engine, 5-seater capacity, and is equipped with sunroof, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2013-06-06",
+        "owner_name": "Michael Wilson",
+        "brand": "Kia",
+        "model_name": "Silverado",
+        "mileage": "34032 km",
+        "price": "$7,559",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Worn-out wiper blades, Slight wear on brake pads, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Kia Silverado features a 3.0L V6 engine, 5-seater capacity, and is equipped with airbags, adaptive cruise control, lane assist, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2004-05-04",
+        "owner_name": "Emily Davis",
+        "brand": "Honda",
+        "model_name": "Sorento",
+        "mileage": "8120 km",
+        "price": "$3,709",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads, Worn-out wiper blades, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Honda Sorento features a Electric engine, 4-seater capacity, and is equipped with sunroof, ABS, lane assist, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2004-01-12",
+        "owner_name": "Emily Davis",
+        "brand": "Ford",
+        "model_name": "Model S",
+        "mileage": "70023 km",
+        "price": "$40,076",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Battery nearing end of life, Suspension noise on rough roads, Minor engine oil leakage.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Ford Model S features a Electric engine, 7-seater capacity, and is equipped with lane assist, airbags, ABS, traction control, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2022-06-12",
+        "owner_name": "Jane Smith",
+        "brand": "Chevrolet",
+        "model_name": "Silverado",
+        "mileage": "91782 km",
+        "price": "$69,544",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Battery nearing end of life, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Chevrolet Silverado features a 3.0L V6 engine, 7-seater capacity, and is equipped with lane assist, ABS, backup camera, traction control, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2008-01-25",
+        "owner_name": "Robert Brown",
+        "brand": "BMW",
+        "model_name": "Altima",
+        "mileage": "157511 km",
+        "price": "$37,595",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Battery nearing end of life, Slight wear on brake pads, Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This BMW Altima features a 1.6L I4 engine, 7-seater capacity, and is equipped with traction control, backup camera, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2018-12-30",
+        "owner_name": "Michael Wilson",
+        "brand": "Nissan",
+        "model_name": "Mustang",
+        "mileage": "29085 km",
+        "price": "$25,347",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads, Minor engine oil leakage, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Nissan Mustang features a Electric engine, 5-seater capacity, and is equipped with airbags, traction control, adaptive cruise control, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2009-02-19",
+        "owner_name": "Robert Brown",
+        "brand": "Mercedes",
+        "model_name": "Mustang",
+        "mileage": "189134 km",
+        "price": "$25,933",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads, Battery nearing end of life, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Mercedes Mustang features a 2.0L I4 engine, 4-seater capacity, and is equipped with backup camera, lane assist, adaptive cruise control, traction control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2005-03-20",
+        "owner_name": "John Doe",
+        "brand": "Tesla",
+        "model_name": "X5",
+        "mileage": "9690 km",
+        "price": "$43,356",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Minor engine oil leakage, Battery nearing end of life, Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Tesla X5 features a Electric engine, 7-seater capacity, and is equipped with backup camera, traction control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2012-08-14",
+        "owner_name": "Emily Davis",
+        "brand": "Ford",
+        "model_name": "E-Class",
+        "mileage": "5315 km",
+        "price": "$7,390",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Minor engine oil leakage, Slight wear on brake pads, Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford E-Class features a Hybrid engine, 5-seater capacity, and is equipped with ABS, backup camera, airbags, traction control, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2013-11-05",
+        "owner_name": "Jane Smith",
+        "brand": "Kia",
+        "model_name": "Elantra",
+        "mileage": "165953 km",
+        "price": "$58,394",
+        "other_information": "Minor paint fade on roof. Additional issues: Suspension noise on rough roads, Minor engine oil leakage, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Kia Elantra features a Electric engine, 5-seater capacity, and is equipped with sunroof, lane assist, traction control, adaptive cruise control, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2000-12-21",
+        "owner_name": "Jane Smith",
+        "brand": "Ford",
+        "model_name": "X5",
+        "mileage": "138512 km",
+        "price": "$42,350",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Battery nearing end of life, Slight wear on brake pads, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Ford X5 features a 1.6L I4 engine, 5-seater capacity, and is equipped with lane assist, sunroof, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2015-12-11",
+        "owner_name": "John Doe",
+        "brand": "Honda",
+        "model_name": "Elantra",
+        "mileage": "96104 km",
+        "price": "$21,402",
+        "other_information": "No visible damage. Additional issues: Slight wear on brake pads, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Honda Elantra features a Hybrid engine, 7-seater capacity, and is equipped with backup camera, traction control, ABS, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2019-07-11",
+        "owner_name": "Emily Davis",
+        "brand": "Kia",
+        "model_name": "Altima",
+        "mileage": "132344 km",
+        "price": "$25,454",
+        "other_information": "No visible damage. Additional issues: Minor engine oil leakage, Slight wear on brake pads, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Kia Altima features a 1.6L I4 engine, 4-seater capacity, and is equipped with adaptive cruise control, lane assist, ABS, airbags. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2016-09-26",
+        "owner_name": "Michael Wilson",
+        "brand": "Mercedes",
+        "model_name": "Mustang",
+        "mileage": "98526 km",
+        "price": "$6,660",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Worn-out wiper blades, Minor engine oil leakage.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Mercedes Mustang features a Hybrid engine, 4-seater capacity, and is equipped with sunroof, adaptive cruise control, airbags. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2000-09-17",
+        "owner_name": "Michael Wilson",
+        "brand": "Ford",
+        "model_name": "X5",
+        "mileage": "77515 km",
+        "price": "$15,755",
+        "other_information": "Slight dent on front door. Additional issues: Suspension noise on rough roads, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford X5 features a 3.0L V6 engine, 5-seater capacity, and is equipped with backup camera, airbags, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2006-12-09",
+        "owner_name": "Michael Wilson",
+        "brand": "Mercedes",
+        "model_name": "Elantra",
+        "mileage": "195160 km",
+        "price": "$35,985",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Worn-out wiper blades, Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Mercedes Elantra features a Electric engine, 4-seater capacity, and is equipped with sunroof, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2013-05-22",
+        "owner_name": "John Doe",
+        "brand": "Ford",
+        "model_name": "Corolla",
+        "mileage": "99772 km",
+        "price": "$22,643",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Slight wear on brake pads, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford Corolla features a 2.0L I4 engine, 5-seater capacity, and is equipped with airbags, backup camera, lane assist, traction control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2019-03-26",
+        "owner_name": "John Doe",
+        "brand": "Ford",
+        "model_name": "Elantra",
+        "mileage": "155394 km",
+        "price": "$31,687",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford Elantra features a Hybrid engine, 5-seater capacity, and is equipped with sunroof, airbags, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2018-07-06",
+        "owner_name": "Emily Davis",
+        "brand": "Nissan",
+        "model_name": "X5",
+        "mileage": "116228 km",
+        "price": "$33,780",
+        "other_information": "No visible damage. Additional issues: Battery nearing end of life, Minor engine oil leakage, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Nissan X5 features a 1.6L I4 engine, 5-seater capacity, and is equipped with sunroof, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2008-12-07",
+        "owner_name": "Robert Brown",
+        "brand": "BMW",
+        "model_name": "Sorento",
+        "mileage": "146773 km",
+        "price": "$58,144",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Worn-out wiper blades, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This BMW Sorento features a Electric engine, 7-seater capacity, and is equipped with backup camera, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2004-11-09",
+        "owner_name": "John Doe",
+        "brand": "Tesla",
+        "model_name": "Elantra",
+        "mileage": "43527 km",
+        "price": "$49,284",
+        "other_information": "Slight dent on front door. Additional issues: Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Tesla Elantra features a Electric engine, 7-seater capacity, and is equipped with traction control, sunroof. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2019-06-19",
+        "owner_name": "Emily Davis",
+        "brand": "Chevrolet",
+        "model_name": "Corolla",
+        "mileage": "12445 km",
+        "price": "$11,247",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Battery nearing end of life, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Chevrolet Corolla features a 3.0L V6 engine, 4-seater capacity, and is equipped with sunroof, ABS, backup camera, airbags. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2012-03-11",
+        "owner_name": "John Doe",
+        "brand": "Nissan",
+        "model_name": "Elantra",
+        "mileage": "19149 km",
+        "price": "$11,020",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Worn-out wiper blades, Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Nissan Elantra features a 3.0L V6 engine, 7-seater capacity, and is equipped with ABS, adaptive cruise control, lane assist, airbags, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2007-04-07",
+        "owner_name": "Michael Wilson",
+        "brand": "BMW",
+        "model_name": "X5",
+        "mileage": "53713 km",
+        "price": "$72,054",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This BMW X5 features a 3.0L V6 engine, 7-seater capacity, and is equipped with ABS, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2006-06-30",
+        "owner_name": "Michael Wilson",
+        "brand": "Ford",
+        "model_name": "Model S",
+        "mileage": "195030 km",
+        "price": "$75,229",
+        "other_information": "Slight dent on front door. Additional issues: Minor engine oil leakage, Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford Model S features a Electric engine, 5-seater capacity, and is equipped with adaptive cruise control, sunroof, backup camera, airbags, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2016-06-02",
+        "owner_name": "John Doe",
+        "brand": "Hyundai",
+        "model_name": "Corolla",
+        "mileage": "132691 km",
+        "price": "$7,475",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Suspension noise on rough roads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Hyundai Corolla features a 1.6L I4 engine, 4-seater capacity, and is equipped with airbags, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2010-10-14",
+        "owner_name": "John Doe",
+        "brand": "Hyundai",
+        "model_name": "E-Class",
+        "mileage": "193974 km",
+        "price": "$27,784",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Battery nearing end of life, Worn-out wiper blades, Minor engine oil leakage.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Hyundai E-Class features a 3.0L V6 engine, 4-seater capacity, and is equipped with sunroof, backup camera, ABS, traction control, adaptive cruise control. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2014-10-12",
+        "owner_name": "John Doe",
+        "brand": "Nissan",
+        "model_name": "Mustang",
+        "mileage": "180655 km",
+        "price": "$9,362",
+        "other_information": "Minor paint fade on roof. Additional issues: Battery nearing end of life, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Nissan Mustang features a 1.6L I4 engine, 5-seater capacity, and is equipped with traction control, airbags, lane assist, adaptive cruise control, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2008-05-10",
+        "owner_name": "Emily Davis",
+        "brand": "Ford",
+        "model_name": "X5",
+        "mileage": "168933 km",
+        "price": "$24,061",
+        "other_information": "Worn-out tires. Additional issues: Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford X5 features a 2.0L I4 engine, 4-seater capacity, and is equipped with ABS, traction control, backup camera, airbags, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2017-12-17",
+        "owner_name": "Emily Davis",
+        "brand": "Hyundai",
+        "model_name": "X5",
+        "mileage": "116331 km",
+        "price": "$70,146",
+        "other_information": "No visible damage; in excellent condition.. Additional issues: Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Hyundai X5 features a Hybrid engine, 7-seater capacity, and is equipped with adaptive cruise control, backup camera. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2003-07-20",
+        "owner_name": "Emily Davis",
+        "brand": "BMW",
+        "model_name": "E-Class",
+        "mileage": "171697 km",
+        "price": "$9,875",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Minor engine oil leakage, Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This BMW E-Class features a 1.6L I4 engine, 7-seater capacity, and is equipped with lane assist, traction control, sunroof, backup camera, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2006-06-25",
+        "owner_name": "Jane Smith",
+        "brand": "Ford",
+        "model_name": "Elantra",
+        "mileage": "20746 km",
+        "price": "$69,978",
+        "other_information": "Worn-out tires. Additional issues: Suspension noise on rough roads, Worn-out wiper blades.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Ford Elantra features a Hybrid engine, 5-seater capacity, and is equipped with backup camera, ABS, traction control, airbags, lane assist. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2011-06-10",
+        "owner_name": "Robert Brown",
+        "brand": "Honda",
+        "model_name": "Altima",
+        "mileage": "138672 km",
+        "price": "$78,634",
+        "other_information": "Worn-out tires. Additional issues: Battery nearing end of life, Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Honda Altima features a 2.0L I4 engine, 5-seater capacity, and is equipped with lane assist, airbags. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2002-05-17",
+        "owner_name": "John Doe",
+        "brand": "Nissan",
+        "model_name": "Sorento",
+        "mileage": "6657 km",
+        "price": "$55,733",
+        "other_information": "Minor scratches on rear bumper. Additional issues: Suspension noise on rough roads, Slight wear on brake pads.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "Second-hand",
+        "description": "This Nissan Sorento features a 3.0L V6 engine, 7-seater capacity, and is equipped with sunroof, adaptive cruise control, ABS. Ideal for both city and highway driving."
+    },
+    {
+        "manufacture_date": "2019-07-29",
+        "owner_name": "John Doe",
+        "brand": "Chevrolet",
+        "model_name": "Model S",
+        "mileage": "186918 km",
+        "price": "$57,214",
+        "other_information": "No visible damage. Additional issues: Battery nearing end of life.",
+        "images": [
+            {
+                "name": "front_view.jpg",
+                "url": "https://example.com/front_view.jpg"
+            },
+            {
+                "name": "side_view.jpg",
+                "url": "https://example.com/side_view.jpg"
+            },
+            {
+                "name": "interior_view.jpg",
+                "url": "https://example.com/interior_view.jpg"
+            }
+        ],
+        "ownership_status": "First-hand",
+        "description": "This Chevrolet Model S features a Electric engine, 7-seater capacity, and is equipped with sunroof, adaptive cruise control, airbags, lane assist. Ideal for both city and highway driving."
+    }
+]

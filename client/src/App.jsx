@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Services from './components/Services'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
+import Sell from './Pages/Sell'
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}>
           <Route path='/' element={<Landing />} />
+          <Route path='/sell-cars' element={<Sell />} />
+          
         </Route>
       </Routes>
       
