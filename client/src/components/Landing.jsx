@@ -1,5 +1,6 @@
 import {Fragment} from "react";
 import Services from "./Services";
+import FilterCars from "@/Layout/Buy/FilterCars";
 
 const Landing = () => {
     return (
@@ -16,7 +17,7 @@ const Landing = () => {
             </section>
 
             <Services/>
-
+            <FilterCars/>
         </Fragment>
     );
 };
