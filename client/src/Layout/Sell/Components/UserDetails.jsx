@@ -68,31 +68,31 @@ function UserDetails() {
 
             {/* Form */}
 
-            <div className='grid grid-cols-3 gap-4 mt-4 p-3'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 p-3 '>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='name'>Name</Label>
-                    <Input type='text' className=''/>
+                    <Input type='text' className='md:w-max'/>
                 </div>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='email'>Email Id</Label>
-                    <Input type='email' className=''/>
+                    <Input type='email' className='md:w-max'/>
                 </div>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='phoneNumber'>Phone Number</Label>
-                    <Input type='number' className=''/>
+                    <Input type='number' className='md:w-max'/>
                 </div>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='flat'>Flat, House no.,Apartment
                     </Label>
-                    <Input type='text' className=''/>
+                    <Input type='text' className='md:w-max'/>
                 </div>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='area'>Area, Street, Sector, Village</Label>
-                    <Input type='text' className=''/>
+                    <Input type='text' className='md:w-max'/>
                 </div>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='area'>Landmark</Label>
-                    <Input type='text' className=''/>
+                    <Input type='text' className='md:w-max'/>
                 </div>
                 <div className='flex items-start flex-col'>
                     <Label className="my-2" htmlFor='area'>State</Label>

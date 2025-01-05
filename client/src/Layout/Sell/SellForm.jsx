@@ -1,5 +1,6 @@
 import React from 'react'
 import UserDetails from './Components/UserDetails'
+import CarDetails from './Components/CarDetails'
 
 function SellForm() {
   return (
@@ -7,6 +8,7 @@ function SellForm() {
         {/* Get User Details */}
         <UserDetails />
         {/* Car Details */}
+        <CarDetails />
 
         {/* Car Photos */}
 
