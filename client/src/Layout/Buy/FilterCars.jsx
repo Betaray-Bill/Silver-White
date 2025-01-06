@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { SlidersHorizontal } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
+import { Combobox } from "./Combobox";
 
 function FilterCars() {
   const initprice = 100000; 
@@ -36,14 +37,14 @@ function FilterCars() {
           <Label className="my-2" htmlFor="name">
             Brand Name
           </Label>
-          <Input type="text" className="md:w-max" />
+          <Combobox />
         </div>
 
         <div className="flex items-start flex-col">
           <Label className="my-2" htmlFor="name">
             Model Name
           </Label>
-          <Input type="text" className="md:w-max" />
+          <Combobox />
         </div>
 
         <div className="flex items-start flex-col">
