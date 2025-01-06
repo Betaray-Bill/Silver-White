@@ -4,6 +4,7 @@ import storage from 'redux-persist/lib/storage'; // Default storage (localStorag
 import { combineReducers } from 'redux';
 import { FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist';
 import sellerReducer from '../features/sellerSlice.js';
+import userReducer from '../features/userSlice.js';
 
 // Redux Persist configuration
 const persistConfig = {
@@ -13,6 +14,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
     seller: sellerReducer, // Add other reducers here
+    user: userReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
