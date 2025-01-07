@@ -45,23 +45,23 @@ function SellForm() {
     };
 
     const uploadToCloudinary = async (file) => {
-        const cloudName = "SilverWhite - demo";
+        const cloudName = "de2i4bxdq";
         const apiKey = "854668357898481";
         const apiSecret = "XJxRo5ENSLzp6avCWRZ3w93ZYhs>";
         const timestamp = Math.floor(Date.now() / 1000);
     
         // Create a signature for Cloudinary upload
-        const paramsToSign = `timestamp=${timestamp}${apiSecret}`;
-        const signature = crypto
-            .createHash("sha1")
-            .update(paramsToSign)
-            .digest("hex");
+        // const paramsToSign = `timestamp=${timestamp}${apiSecret}`;
+        // const signature = crypto
+        //     .createHash("sha1")
+        //     .update(paramsToSign)
+        //     .digest("hex");
     
         const formData = new FormData();
         formData.append("file", file); // Image file
-        formData.append("api_key", apiKey);
-        formData.append("timestamp", timestamp);
-        formData.append("signature", signature);
+        formData.append("upload_preset", "silverWhite-demo");
+        formData.append("cloudName", cloudName); // Cloudinary
+        // formData.append("signature", signature);
     
         const url = `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`;
     
@@ -107,21 +107,21 @@ function SellForm() {
             // setLoading(true);
 
             // Upload images to Cloudinary
-            // const uploadedImageUrls = await Promise.all(images.map((file) => uploadToCloudinary(file)));
-            // // Add image URLs to car details
-            // const carDetailsWithImages = {
-            //     ...formData.car,
-            //       images: uploadedImageUrls
-            // };
-
-            // console.log(carDetailsWithImages)
+            const uploadedImageUrls = await Promise.all(images.map((file) => uploadToCloudinary(file)));
+            // Add image URLs to car details
+            const carDetailsWithImages = {
+                ...formData.car,
+                  images: uploadedImageUrls
+            };
+// 
+            console.log(carDetailsWithImages)
 
             // Save user data to Firebase
             const userDocRef = await addDoc(collection(db, "users"), formData.user);
             console.log("User data saved with ID: ", userDocRef.id);
             // Include userId in car details
             const carDetailsWithUserId = {
-                ...formData.car,
+                ...carDetailsWithImages,
                 userId: userDocRef.id
             };
             const carDocRef = await addDoc(collection(db, "sell"), carDetailsWithUserId);
