@@ -2,7 +2,12 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Button } from "@/components/ui/button"; // ShadCN UI Button
+import { Button } from "@/components/ui/button";
+import { Navigation, Pagination, Scrollbar} from 'swiper/modules'; // ShadCN UI Button
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 import {
   Card,
   CardHeader,
@@ -28,9 +33,13 @@ const ViewOneCar = () => {
       {/* Left Side: Swiper Carousel */}
       <div className="lg:w-3/3 w-[850px]">
         <Swiper
+          modules={[Navigation, Pagination, Scrollbar]}
           spaceBetween={10}
           slidesPerView={1}
           className="rounded-md overflow-hidden shadow-lg"
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
         >
           {car.images.map((image, index) => (
             <SwiperSlide key={index}>
