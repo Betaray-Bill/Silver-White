@@ -3,9 +3,9 @@ import { Car, DollarSign, Truck, Briefcase } from 'lucide-react';
 
 const Services = () => {
   return (
-    <div className="relative mx-auto max-w-6xl m-10">
+    <div className="relative mx-auto max-w-6xl m-10 w-[100vw] grid place-content-center">
       <h2 className="text-2xl font-bold mb-6 text-center">Our Services</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-[80vw]">
         <Card className="shadow-md rounded-lg">
           <CardHeader className="flex items-center">
             <Car size={32} className="text-blue-500" />
