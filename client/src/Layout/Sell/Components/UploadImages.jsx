@@ -2,14 +2,14 @@ import { CarFrontIcon } from 'lucide-react';
 import React, { useRef, useState } from 'react';
 import upload from '../../../assets/upload.png';
 
-function UploadImages( ) {
+function UploadImages( { images, setImages }) {
   const fileInputRef = useRef(null);
 
   const handleUploadClick = () => {
     fileInputRef.current.click();
   };
 
-  const [images, setImages] = useState([])
+  // const [images, setImages] = useState([])
 
   const handleFileChange = (e) => {
     const files = Array.from(e.target.files);

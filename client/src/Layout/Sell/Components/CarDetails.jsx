@@ -13,7 +13,7 @@ import {
 function CarDetails({ data, onUpdate }) {
   return (
     <div
-      className="my-4 py-2 px-3 border border-gray-300 w-[80vw] rounded-md"
+      className="my-4 py-2 px-3 border border-gray-300 w-[80vw] rounded-lg"
       style={{
         borderRadius: '8px',
       }}
