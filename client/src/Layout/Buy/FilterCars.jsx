@@ -10,7 +10,7 @@ import Result from "./Components/Result";
 
 function FilterCars() {
     const initprice = 100000;
-    const maximumprice = 1000000000;
+    const maximumprice =10000000
     const [price,
         setPrice] = useState(maximumprice);
     const [brand,

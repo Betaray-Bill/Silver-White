@@ -23,7 +23,7 @@ function UploadImages( { images, setImages }) {
     // Validate file size and format
     const validFiles = files.filter((file) => {
       const isValidFormat = ['image/png', 'image/jpeg'].includes(file.type);
-      const isValidSize = file.size <= 500 * 1024; // 500 KB
+      const isValidSize = file.size <= 10200 * 1024; // 500 KB
       if (!isValidFormat) alert(`${file.name} has an unsupported format.`);
       if (!isValidSize) alert(`${file.name} exceeds the 500 KB size limit.`);
       return isValidFormat && isValidSize;
