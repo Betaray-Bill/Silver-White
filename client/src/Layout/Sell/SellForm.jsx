@@ -5,8 +5,10 @@ import UploadImages from './Components/UploadImages';
 import { addDoc, collection } from 'firebase/firestore';
 import { db } from '@/utils/firebase';
 import { useToast } from '@/hooks/use-toast';
+import { useNavigate } from 'react-router-dom';
 
 function SellForm() {
+    const navigate = useNavigate()
     const [formData, setFormData] = useState({
         user: {
             name: '',
@@ -76,14 +78,14 @@ function SellForm() {
     const handleSubmit = async () => {
         console.log("object")
         setIsSubmitting(p => !p);
-        if (!validateForm()) {
-            console.log(1)
-            toast({
-                title: "Fill up all the details in the form",
-              })
-              setIsSubmitting(p => !p);
-            return;
-        }
+        // if (!validateForm()) {
+        //     console.log(1)
+        //     toast({
+        //         title: "Fill up all the details in the form",
+        //       })
+        //       setIsSubmitting(p => !p);
+        //     return;
+        // }
 
         try {
             const uploadedImageUrls = await Promise.all(images.map((file) => uploadToCloudinary(file)));
@@ -108,6 +110,28 @@ function SellForm() {
         } finally {
             setIsSubmitting(false);
         }
+        alert("Your car data is submitted Successfully, Team will contact you soon")
+        setFormData({
+            user: {
+                name: '',
+                email: '',
+                phoneNumber: '',
+                flat: '',
+                area: '',
+                landmark: '',
+                state: '',
+                pincode: ''
+            },
+            car: {
+                brandName: '',
+                modelName: '',
+                type: '',
+                odometer: '',
+                price: '',
+                yearOfPurchase: ''
+            }
+        });
+        navigate('/')
     };
 
     return (
