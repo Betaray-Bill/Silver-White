@@ -12,6 +12,7 @@
   "dependencies": {
     "@cloudinary/react": "^1.13.1",
     "@cloudinary/url-gen": "^1.21.0",
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "@radix-ui/react-dialog": "^1.1.4",
     "@radix-ui/react-dropdown-menu": "^2.1.4",
     "@radix-ui/react-label": "^2.1.1",
@@ -19,6 +20,7 @@
     "@radix-ui/react-select": "^2.1.4",
     "@radix-ui/react-slider": "^1.2.2",
     "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.4",
     "@reduxjs/toolkit": "^2.5.0",
     "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.5.1",

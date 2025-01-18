@@ -17,7 +17,7 @@ function Result({ result }) {
             <Button className="mt-4">
               {/* Pass car data as state */}
               <Link to={`/buy/${car.id}`} state={{ car }}>
-                View More
+                View Car
               </Link>
             </Button>
           </div>
