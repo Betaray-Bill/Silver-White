@@ -1,25 +1,42 @@
-import {Fragment} from "react";
-import Services from "./Services";
-import FilterCars from "@/Layout/Buy/FilterCars";
+import { Fragment } from "react";
+import Navbar from "./Navbar";
+import { Button } from "@/components/ui/button"; // Assuming you're using shadcn's button component
 
 const Landing = () => {
-    return (
-        <Fragment>
-            <section
-                className="relative bg-cover bg-center bg-origin-content min-h-[70vh] bg-abstract">
-                <div
-                    className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                    <h1
-                        className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center px-4">
-                        Welcome to Your All-in-One Car Universe
-                    </h1>
-                </div>
-            </section>
+  return (
+    <Fragment>
+      <div className="flex flex-wrap items-center">
+        {/* Left Column */}
+        <div className="w-full md:w-1/2">
+          <Navbar />
+          <section className="relative min-h-[70vh] flex flex-col items-center justify-center text-center px-4">
+            {/* Main Heading */}
+            <h1 className="text-black text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              PLUG FOR YOUR NEXT ADVENTURE
+            </h1>
 
-            <Services/>
-            <FilterCars/>
-        </Fragment>
-    );
+            {/* Subtext */}
+            <p className="text-gray-500 mt-6 text-lg md:text-xl max-w-2xl">
+              Mattis porttitor euismod non tincidunt ultrices aliquam scelerisque. Odio aliquam in elementum sem in malesuada molestie.
+            </p>
+
+            {/* Buttons */}
+            <div className="flex gap-4 mt-8">
+              <Button variant="default" size="lg">
+                Explore now
+              </Button>
+              <Button variant="outline" size="lg">
+                Watch video
+              </Button>
+            </div>
+          </section>
+        </div>
+
+        {/* Right Column */}
+        <section className="relative min-h-[85vh] w-full md:w-1/2 bg-cover bg-center flex items-center justify-center bg-abstract rounded-bl-3xl"/>
+      </div>
+    </Fragment>
+  );
 };
 
 export default Landing;

@@ -16,7 +16,7 @@ export default {
             },
             colors: {},
             backgroundImage:{
-                abstract: "url('https://images.unsplash.com/photo-1607970576683-114740d0cd72?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+                abstract: "url('https://images.unsplash.com/photo-1735437683931-b8a17f57912d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
             },
             fontFamily:{},
         },

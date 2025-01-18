@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding: 0%;
   display: flex;
   /* background-color: #EFF3EA; */
   overflow-x: hidden;

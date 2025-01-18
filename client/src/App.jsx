@@ -11,11 +11,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />}>
-          <Route path='/' element={<Landing />} />
-          <Route path='/sell-cars' element={<Sell />} />
-          <Route path='/buy/:id' element={<ViewOneCar />} />
-        </Route>
+        <Route path='/' element={<Home />} />
+        <Route path='/sell-cars' element={<Sell />} />
+        <Route path='/buy/:id' element={<ViewOneCar />} />
       </Routes>
       
     </>
