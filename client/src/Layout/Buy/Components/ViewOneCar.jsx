@@ -1,120 +1,99 @@
-import React from "react";
+import { Fragment } from "react";
 import { useLocation } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Button } from "@/components/ui/button";
-import { Navigation, Pagination, Scrollbar} from 'swiper/modules'; // ShadCN UI Button
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardContent,
-  CardFooter,
-} from "@/components/ui/card";
+import { Button } from "@/components/ui/button"; // ShadCN UI Button
+import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import Navbar from "@/components/Navbar";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+
+const CarDetailsCard = ({ car }) => (
+  <Card className="text-center space-y-6 custom-border-minus">
+    {/* Header */}
+    <CardHeader>
+      <CardTitle className="text-4xl font-bold mb-2">{car.modelName}</CardTitle>
+      <p className="text-sm text-gray-500">From {car.brandName}</p>
+    </CardHeader>
+
+    {/* Content: Key Specifications */}
+    <CardContent className="space-y-6">
+      <div className="grid grid-cols-3 gap-4 text-center">
+        {[
+          { label: "Odometer", value: `${car.odometer} km`, subtext: "(EPA est.)" },
+          { label: "Ownership Type", value: `${car.type}` },
+          { label: "Year Of Purchase", value: `${car.yearOfPurchase}` },
+        ].map((spec, idx) => (
+          <div key={idx}>
+            <p className="text-2xl font-semibold">{spec.value}</p>
+            <p className="text-sm text-gray-500">{spec.label}</p>
+            {spec.subtext && (
+              <p className="text-xs text-gray-400">{spec.subtext}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </CardContent>
+
+    {/* Footer: Pricing Options */}
+    
+  </Card>
+);
 
 const ViewOneCar = () => {
   const location = useLocation();
   const car = location.state?.car;
 
+  console.log(car);
+
   if (!car) {
     return (
       <div className="flex justify-center items-center h-screen">
-        <p className="text-lg font-medium">Car data not found. Please go back and try again.</p>
+        <p className="text-lg font-medium">
+          Car data not found. Please go back and try again.
+        </p>
       </div>
     );
   }
 
   return (
-    <div className="flex flex-col lg:flex-row gap-8 p-6 lg:p-12">
-      {/* Left Side: Swiper Carousel */}
-      <div className="lg:w-3/3 w-[850px]">
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar]}
-          spaceBetween={10}
-          slidesPerView={1}
-          className="rounded-md overflow-hidden shadow-lg"
-          navigation
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-        >
-          {car.images.map((image, index) => (
-            <SwiperSlide key={index}>
-              <img
-                src={image}
-                alt={`Car image ${index + 1}`}
-                className="w-[850px] h-[600px] object-cover rounded-md"
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+    <Fragment>
+      <div className="flex flex-wrap items-center">
+        {/* Left Column */}
+        <div className="w-full md:w-1/2">
+          <Navbar />
+          <section className="relative min-h-[70vh] flex flex-col items-center justify-center px-6">
+            <CarDetailsCard car={car} />
+          </section>
+        </div>
+
+        {/* Right Column */}
+        <section className="p-6 relative w-full md:w-1/2 flex items-center justify-center">
+          {/* Car Image Slider */}
+          <Swiper
+            modules={[Navigation, Pagination, Scrollbar]}
+            spaceBetween={10}
+            slidesPerView={1}
+            className="rounded-lg shadow-lg"
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+          >
+            {car.images.map((image, index) => (
+              <SwiperSlide key={index}>
+                <img
+                  src={image}
+                  alt={`Car image ${index + 1}`}
+                  className="w-full h-[600px] object-cover rounded-lg"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </section>
       </div>
-
-      {/* Right Side: Car Details */}
-      <div className="lg:w-1/3 w-full space-y-6">
-        {/* Car Title and Key Details */}
-        <Card className="shadow-md border rounded-lg">
-          <CardHeader>
-            <CardTitle className="text-3xl font-bold">{car.modelName}</CardTitle>
-            <div className="flex justify-between text-gray-600 mt-2">
-              <p>{car.brandName}</p>
-              <p>{car.yearOfPurchase}</p>
-            </div>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <p className="text-sm text-gray-500">Type</p>
-                <p className="font-medium">{car.type}</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-500">Odometer</p>
-                <p className="font-medium">{car.odometer} km</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-500">Price</p>
-                <p className="font-medium">₹{car.price}</p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Pricing Options */}
-        <Card className="shadow-md border rounded-lg p-4">
-          <CardContent className="space-y-4">
-            <h3 className="text-lg font-semibold">Pricing Options</h3>
-            <div className="space-y-2">
-              <Button variant="outline" className="w-full text-left">
-                <div className="flex justify-between">
-                  <span>Long Range Rear-Wheel Drive</span>
-                  <span>₹216/mo</span>
-                </div>
-              </Button>
-              <Button variant="outline" className="w-full text-left">
-                <div className="flex justify-between">
-                  <span>Long Range All-Wheel Drive</span>
-                  <span>₹266/mo</span>
-                </div>
-              </Button>
-              <Button variant="outline" className="w-full text-left">
-                <div className="flex justify-between">
-                  <span>Performance All-Wheel Drive</span>
-                  <span>₹516/mo</span>
-                </div>
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Order Now Button */}
-        <CardFooter>
-          <Button className="w-full text-lg py-3">Order Now</Button>
-        </CardFooter>
-      </div>
-    </div>
+    </Fragment>
   );
 };
 

@@ -16,3 +16,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.custom-border-minus{
+  border-radius: 0px !important;
+  border-width: 0px !important;
+  box-shadow: none !important;
+}
