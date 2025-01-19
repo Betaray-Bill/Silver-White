@@ -8,10 +8,9 @@ const Landing = () => {
       <div className="flex flex-wrap items-center">
         {/* Left Column */}
         <div className="w-full md:w-1/2">
-          <Navbar />
           <section className="relative min-h-[70vh] flex flex-col items-center justify-center text-center px-4">
             {/* Main Heading */}
-            <h1 className="text-black text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 className="text-black text-4xl md:text-4xl lg:text-5xl font-bold leading-tight">
               PLUG FOR YOUR NEXT ADVENTURE
             </h1>
 
@@ -33,7 +32,7 @@ const Landing = () => {
         </div>
 
         {/* Right Column */}
-        <section className="relative min-h-[85vh] w-full md:w-1/2 bg-cover bg-center flex items-center justify-center bg-abstract rounded-bl-3xl"/>
+        <section className="relative min-h-[85vh] w-full md:w-2/4 bg-cover bg-center flex items-center justify-center bg-abstract rounded-bl-3xl rounded-tl-3xl"/>
       </div>
     </Fragment>
   );
